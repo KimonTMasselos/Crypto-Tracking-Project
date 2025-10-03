@@ -1,6 +1,6 @@
 # 🚀 Crypto Tracking Project
 
-This project fetches cryptocurrency data from the **CoinGecko API** for the top 100 coins and builds a modern data pipeline using **Apache Airflow**, **Docker**, **PySpark**, and **Amazon S3**.  
+This project fetches cryptocurrency data daily from the **CoinGecko API** for the top 100 coins and builds a modern data pipeline using **Apache Airflow**, **Docker**, **PySpark**, **Apache Iceberg**, and **Amazon S3**.  
 Data is processed following the **Medallion Architecture** (Bronze → Silver → Gold) and stored as partitioned **Iceberg tables**, ready for analytics and visualization.
 
 ---
