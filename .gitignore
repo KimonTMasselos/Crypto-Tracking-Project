@@ -1,0 +1,6 @@
+logs/
+dags/.ipynb_checkpoints/
+dags/__pycache__/
+dags/notebooks/scripts/.ipynb_checkpoints/
+.vscode/
+Invoke-WebRequest
